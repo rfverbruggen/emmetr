@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "./dist",
+    "strict": true,
+
+    "esModuleInterop": true /* Needed for @emmetio/implicit-tag */
+  },
+  "exclude": [
+    "tests",
+    "dist",
+    "node_modules",
+    "jest.config.ts"
+  ]
+}
