@@ -11,8 +11,16 @@
     "test": "jest",
     "lint": "eslint \"./src/**/*.ts\""
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfverbruggen/emmetr.git"
+  },
   "author": "Robbert Verbruggen",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rfverbruggen/emmetr/issues"
+  },
+  "homepage": "https://github.com/rfverbruggen/emmetr#readme",
   "devDependencies": {
     "@types/jest": "^28.1.8",
     "@typescript-eslint/eslint-plugin": "^5.38.1",
